@@ -17,15 +17,10 @@
           <button type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><i class="fa fa-bars"></i></button>
           <!-- Navbar Collapse -->
           <div id="navbarCollapse" class="collapse navbar-collapse">
-            <ul class="navbar-nav mx-auto">
-              <li class="nav-item dropdown"><a id="navbarHomeLink" href="index-2.html" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link active">Home<i class="fa fa-angle-down"></i></a>
-                <ul aria-labelledby="navbarDropdownHomeLink" class="dropdown-menu">
-                  <li><a href="index-2.html" class="dropdown-item">Classic Home</a></li>
-                  <li><a href="index2.html" class="dropdown-item">Parallax sections</a></li>
-                  <li><a href="index3.html" class="dropdown-item">Video background</a></li>
-                </ul>
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item dropdown"><a id="navbarHomeLink" href="index-2.html" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link active">Home</a>
               </li>
-              <li class="nav-item"><a href="category.html" class="nav-link">Shop</a>
+              <li class="nav-item"><a href="category.html" class="nav-link">Categories</a>
               </li>
               <!-- Megamenu-->
               <li class="nav-item dropdown menu-large"><a href="#" data-toggle="dropdown" class="nav-link">Template<i class="fa fa-angle-down"></i></a>
@@ -146,7 +141,7 @@
                 </ul>
               </li>
               <!-- Multi level dropdown end-->
-              <li class="nav-item"><a href="blog.html" class="nav-link">Blog </a>
+              <li class="nav-item"><a href="blog.html" class="nav-link">About </a>
               </li>
               <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a>
               </li>

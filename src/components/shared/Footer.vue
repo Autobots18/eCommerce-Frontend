@@ -83,7 +83,7 @@
         <div class="container">
           <div class="row d-flex align-items-center">
             <div class="text col-md-6">
-              <p>&copy; 2018<a href="https://ondrejsvestka.cz/" target="_blank">Ondrej Svestka </a> All rights reserved.</p>
+              <p>&copy; {{date}} <a href="https://github.com/Autobots18" target="_blank">Autobots🤖 </a> All rights reserved.</p>
             </div>
             <div class="payment col-md-6 clearfix">
               <ul class="payment-list list-inline-item pull-right">
@@ -101,6 +101,9 @@
 
 <script>
 export default {
-	name: 'Footer'
+	name: 'Footer',
+	data() {
+		return { date: new Date().getUTCFullYear() };
+	}
 };
 </script>
