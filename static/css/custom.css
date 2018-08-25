@@ -1,1 +1,20 @@
 /* your styles go here */
+.hero {
+  display: grid;
+  height: 60vh;
+  align-content: center;
+  background: url(../img/hero-bg-3.jpg) !important;
+  color: var(--light);
+}
+
+.auth-breadcrumb {
+  color: var(--white) !important;
+}
+
+.breadcrumb-data {
+  color: rgba(255, 255, 255, 0.726) !important;
+}
+
+.auth-breadcrumb:hover {
+  color: var(--purple) !important;
+}
