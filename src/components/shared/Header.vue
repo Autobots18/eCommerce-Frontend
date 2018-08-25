@@ -13,17 +13,17 @@
           </div>
         </div>
         <div class="container-fluid">
-          <!-- Navbar Header  --><a href="index-2.html" class="navbar-brand"><img src="/static/img/logo.png" alt="..."></a>
+          <!-- Navbar Header  --><a href="/" class="navbar-brand"><img src="/static/img/logo.png" alt="..."></a>
           <button type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><i class="fa fa-bars"></i></button>
           <!-- Navbar Collapse -->
           <div id="navbarCollapse" class="collapse navbar-collapse">
             <ul class="navbar-nav ml-auto">
-              <li class="nav-item dropdown"><a id="navbarHomeLink" href="index-2.html" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link active">Home</a>
+              <li class="nav-item dropdown"><a id="navbarHomeLink" href="/" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link active">Home</a>
               </li>
               <li class="nav-item"><a href="category.html" class="nav-link">Categories</a>
               </li>
               <!-- Megamenu-->
-              <li class="nav-item dropdown menu-large"><a href="#" data-toggle="dropdown" class="nav-link">Template<i class="fa fa-angle-down"></i></a>
+              <li class="nav-item dropdown menu-large"><a href="#" data-toggle="dropdown" class="nav-link">Shop NOW!<i class="fa fa-angle-down"></i></a>
                 <div class="dropdown-menu megamenu">
                   <div class="row">
                     <div class="col-lg-9">
@@ -116,30 +116,7 @@
                   </div>
                 </div>
               </li>
-              <!-- /Megamenu end-->
-              <!-- Multi level dropdown    -->
-              <li class="nav-item dropdown"><a id="navbarDropdownMenuLink" href="http://example.com/" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link">Dropdown<i class="fa fa-angle-down"></i></a>
-                <ul aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu">
-                  <li><a href="#" class="dropdown-item">Action</a></li>
-                  <li><a href="#" class="dropdown-item">Another action</a></li>
-                  <li class="dropdown-submenu"><a id="navbarDropdownMenuLink2" href="http://example.com/" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link">Dropdown link<i class="fa fa-angle-down"></i></a>
-                    <ul aria-labelledby="navbarDropdownMenuLink2" class="dropdown-menu">
-                      <li><a href="#" class="dropdown-item">Action</a></li>
-                      <li class="dropdown-submenu"><a id="navbarDropdownMenuLink3" href="http://example.com/" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link">
 
-                          Another action<i class="fa fa-angle-down"></i></a>
-                        <ul aria-labelledby="navbarDropdownMenuLink3" class="dropdown-menu">
-                          <li><a href="#" class="dropdown-item">Action</a></li>
-                          <li><a href="#" class="dropdown-item">Action</a></li>
-                          <li><a href="#" class="dropdown-item">Action</a></li>
-                          <li><a href="#" class="dropdown-item">Action</a></li>
-                        </ul>
-                      </li>
-                      <li><a href="#" class="dropdown-item">Something else here</a></li>
-                    </ul>
-                  </li>
-                </ul>
-              </li>
               <!-- Multi level dropdown end-->
               <li class="nav-item"><a href="blog.html" class="nav-link">About </a>
               </li>
@@ -150,7 +127,14 @@
               <!-- Search Button-->
               <div class="search"><i class="icon-search"></i></div>
               <!-- User Not Logged - link to login page-->
-              <div class="user"> <a id="userdetails" href="customer-login.html" class="user-link"><i class="icon-profile">                   </i></a></div>
+              <div class="user nav-item dropdown">
+                <a id="userdetails" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link user-link"><i class="icon-profile"></i></a>
+                <ul aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu">
+                  <li><a href="/signin" class="nav-item">  SignIn</a></li>
+                  <li><a href="/signup" class="nav-item">  Signup</a></li>
+                </ul>
+                <!-- <a id="userdetails" href="/signin" class="user-link"><i class="icon-profile"></i></a> -->
+              </div>
               <!-- Cart Dropdown-->
               <div class="cart dropdown show"><a id="cartdetails" href="https://example.com/" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle"><i class="icon-cart"></i>
                   <div class="cart-no">1</div></a><a href="cart.html" class="text-primary view-cart">View Cart</a>
